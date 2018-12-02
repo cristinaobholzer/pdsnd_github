@@ -16,7 +16,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
         (str) first_lines - shows the first five lines of raw data if requested by the user
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello! Let\'s explore US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     
     while True:
@@ -168,6 +168,7 @@ def user_stats(df):
     print(df['User Type'].value_counts())
 
     # TO DO: Display counts of gender
+    # if statement added as Chicago does not have a comlumn for Gender
     if 'Gender' in df.columns:
         print('--Count of user gender--')
         print(df['Gender'].value_counts(),'\n')
@@ -175,6 +176,7 @@ def user_stats(df):
         print('Gender not specified file')
 
     # TO DO: Display earliest, most recent, and most common year of birth
+    # if statement added as Chicago does not have a comlumn for Birth Year
     if 'Birth Year' in df.columns:
         earliest = df['Birth Year'].min()
         latest = df['Birth Year'].max()
