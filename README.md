@@ -1,11 +1,11 @@
 ### Date created
-Include the date you created this project and README file.
+06.11.2018
 
 ### Project Title
-Replace the Project Title
+Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+Python code to analyse statistics of a Bike Share company based in Washington, Chicago and New York City
 
 ### Files used
 Include the files used
