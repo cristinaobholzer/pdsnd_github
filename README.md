@@ -11,5 +11,6 @@ Python code to analyse statistics of a Bike Share company based in Washington, C
 the files chicago.csv, washington.csv and new_york_city.csv were used in the project, but will not be commited to the local or remote repositories.
 
 ### Credits
-To develop this project Python documentation (https://docs.python.org/3/) was consulted, as well as questions from colleagues at the GitHub.
-
+Python documentation (https://docs.python.org/3/)
+Udacity material
+Udacity forum
